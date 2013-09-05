@@ -12,8 +12,8 @@ class ItemsearchController < ApplicationController
 
     begin
       data = httpClient.get_content('https://app.rakuten.co.jp/services/api/IchibaItem/Search/20130805', {
-          'applicationId' => '1025899060325418115',
-          'affiliateId'   => '0dd78f8a.26c4c8c0.0dd78f8b.0ee811d2',
+          'applicationId' => '1049093471294294733',
+          'affiliateId'   => '11b2431a.6e72f547.11b2431b.82f96c69',
           'keyword'       => keyword
       })
       @jsonData = JSON.parse data
